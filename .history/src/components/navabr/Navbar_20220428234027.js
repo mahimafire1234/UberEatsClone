@@ -1,0 +1,1 @@
+class Navabar extends
