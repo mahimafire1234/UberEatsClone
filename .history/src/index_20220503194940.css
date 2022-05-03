@@ -1,7 +1,5 @@
-main {
-  height: 100vh;
-  background: url('./images/2018_02_uber_eats_emea_N_1181_opt.jpg');
-
+body {
+  height: 100%;
 }
 
 code {
@@ -9,4 +7,6 @@ code {
     monospace;
 }
 
-
+html{
+  background: ;
+}

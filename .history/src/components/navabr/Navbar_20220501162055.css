@@ -18,12 +18,6 @@
     font-weight: 600;
 }
 
-/* hover effect on buttons login */
-#loginbtn:hover{
-    background-color: rgb(192, 192, 192);
-    border-color: rgb(192, 192, 192);
-}
-
 /* sign up button */
 #signup_btn{
     height: 50px;
@@ -33,12 +27,6 @@
     color: white;
     border-color: black;
     font-weight: 600;
-}
-
-/* hover effect */
-#signup_btn:hover{
-    background-color: rgb(72, 70, 70);
-    border-color:rgb(72, 70, 70) ;
 }
 
 /* user icon */
@@ -51,7 +39,6 @@
 .Navbar{
     position: relative;
     padding: 7px;
-    background: none;
 }
 #button_containing_div{
     position: absolute;

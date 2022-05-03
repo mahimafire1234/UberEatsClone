@@ -36,9 +36,8 @@
 }
 
 /* hover effect */
-#signup_btn:hover{
-    background-color: rgb(72, 70, 70);
-    border-color:rgb(72, 70, 70) ;
+#signup_btn{
+    background-color: black;
 }
 
 /* user icon */

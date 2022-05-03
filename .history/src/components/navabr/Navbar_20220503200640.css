@@ -36,7 +36,7 @@
 }
 
 /* hover effect */
-#signup_btn:hover{
+#signup_btn:{
     background-color: rgb(72, 70, 70);
     border-color:rgb(72, 70, 70) ;
 }
