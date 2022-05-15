@@ -1,0 +1,10 @@
+/* css file for main */
+.main_holder{
+    box-sizing: border-box;
+    display: flex;
+}
+.sub-holder{
+    box-sizing: border-box;
+    display: block;
+    pa
+}

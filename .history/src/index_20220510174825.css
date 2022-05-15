@@ -1,0 +1,15 @@
+main {
+  height: 100vh;
+  background: url('./images/photo-1539735257177-0d3949225f96.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

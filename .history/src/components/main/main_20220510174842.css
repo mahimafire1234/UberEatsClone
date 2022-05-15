@@ -1,0 +1,7 @@
+/* css file for main */
+.sub-holder{
+    box-sizing: border-box;
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+}

@@ -1,0 +1,12 @@
+/* css file for main */
+.main_holder{
+    box-sizing: border-box;
+    display: flex;
+    background-color: aqua;
+}
+.sub-holder{
+    box-sizing: border-box;
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+}

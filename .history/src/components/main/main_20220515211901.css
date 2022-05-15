@@ -1,0 +1,46 @@
+/* css file for main */
+.main_holder{
+    box-sizing: border-box;
+    display: flex;
+    height: 50vh;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: flex-start;
+}
+.sub-holder{
+    box-sizing: border-box;
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 100px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Laila', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* toggle bar */
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-color: antiquewhite;
+}
+.switch input{display: none;}
+
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ca2222;
+  -webkit-transition: .4s;
+  transition: .4s;
+}

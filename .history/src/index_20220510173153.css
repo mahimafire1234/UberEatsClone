@@ -1,0 +1,14 @@
+main {
+  height: 100vh;
+  background: url('./images/1f72ca2ec92c6e9fcc3d2b4730d5c022.jpg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

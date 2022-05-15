@@ -1,0 +1,116 @@
+/* css file for main */
+.main_holder{
+    box-sizing: border-box;
+    display: flex;
+    height: 50vh;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: flex-start;
+}
+.sub-holder{
+    box-sizing: border-box;
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 100px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Laila', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* toggle bar */
+.switch{
+    --width: 150px;
+    --height: calc(var(--width) / 4);
+
+    float: left;
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: var(--height);
+    cursor: pointer;
+}
+/* hiding the checkbox */
+.switch input{
+    display: none;
+}
+
+.switch .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--height);
+    background-color:transparent;
+    transition: all 0.4s ease-in-out;
+    opacity: 0.5;
+
+}
+.switch .slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+
+    width: calc(var(--height)*2);
+    height: calc(var(--height));
+    border-radius: calc(var(--height) / 2);
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease-in-out;
+}
+/* slider effect */
+.switch input:checked + .slider {
+    background-color: transparent;
+}
+.switch input:checked + .slider::before {
+    transform: translateX(calc(var(--width) - var(--height)*2));
+}
+/* Adding text in the toggle button */
+.switch .labels {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: sans-serif;
+    transition: all 0.4s ease-in-out;
+    color: black;
+}
+
+.switch .labels::after {
+    content: attr(data-off);
+    position: absolute;
+    right: 5px;
+    color: black;
+    opacity: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease-in-out;
+}
+
+.switch .labels::before {
+    content: attr(data-on);
+    position: absolute;
+    left: 5px;
+    color: black;
+    opacity: 0;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+    transition: all 0.4s ease-in-out;
+}
+
+.switch input:checked~.labels::after {
+    opacity: 0;
+}
+
+.switch input:checked~.labels::before {
+    opacity: 1;
+}
